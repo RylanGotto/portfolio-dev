@@ -1,0 +1,10 @@
+    body {
+        padding-top: 60px;
+    }
+    .btn{
+    	margin-top: 5px;
+    }
+    #logo{
+    	position: relative;
+    	top:-13px;
+    }
