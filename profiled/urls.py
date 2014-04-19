@@ -10,5 +10,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.home ,name="home"),
     url(r'^blog/', views.blog ,name="blog"),
+    url(r'^contact/', views.contact ,name="contact"),
+    url(r'^projects/', views.projects ,name="projects"),
     url(r'^(?P<slug>[\w\-]+)/$', views.getpost, name="getpost"),
 )
